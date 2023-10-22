@@ -1,4 +1,4 @@
-    /* Global Properties */
+
     html {
         scroll-behavior: smooth;
     }
@@ -8,12 +8,12 @@
         font-family: "Baloo Tamma 2", cursive;
     }
 
-    /* Main Heading Font */
+
     .m-heading {
         font-family: "Roboto Slab", serif;
     }
 
-    /* Navigation */
+
     .navigation-link {
         border: 2px solid transparent;
     }
@@ -24,35 +24,33 @@
         transition: 0.5s ease;
     }
 
-    /* Main Container height */
     .main-container {
-        min-height: 100vh; /* Change to min-height for better mobile experience */
+        min-height: 100vh;
     }
 
-    /* Aligning items in main row */
+
     .main_row {
         display: flex;
-        flex-direction: column; /* Stack items vertically on mobile */
+        flex-direction: column; 
         align-items: center;
-        text-align: center; /* Center text on mobile */
+        text-align: center;
     }
 
-    /* Changing Name Font size */
+
     .main_row h1 {
-        font-size: 3rem; /* Adjust the font size for mobile */
+        font-size: 3rem; 
     }
 
-    /* Making the main image responsive */
     .main_row img {
-        max-width: 100%; /* Ensure the image doesn't overflow on smaller screens */
+        max-width: 100%; 
         height: auto;
     }
 
-    /* About Section */
+
     .about {
         background: #313552;
         border-radius: 0.5rem;
-        padding: 5; /* Add some spacing inside the section on mobile */
+        padding: 5; 
 
     }
 
@@ -60,28 +58,28 @@
         border-bottom: 8px solid #f5ba09;
     }
 
-    /* Social Media Section */
+
     #social-media {
         background: #313552;
     }
 
-    /* Add color to Social Media Links */
+
     .media_link {
         padding: 1rem;
         max-width: 15rem;
-        margin: 1rem 0; /* Remove left margin and add top/bottom margin for spacing on mobile */
+        margin: 1rem 0; 
         text-align: center;
     }
 
     @media (max-width: 768px) {
-        /* Apply specific styles for screens with a maximum width of 768px (typical mobile devices) */
+
         
-        /* Adjust the font size for smaller screens */
+    
         .main_row h1 {
             font-size: 2rem;
         }
         
-        /* Reduce padding and border width for better mobile spacing */
+
         .media_link {
             padding: 0.5rem;
             max-width: 12rem;   
@@ -92,8 +90,7 @@
         color: red;
         background-color: gray;
         
-         /* You can use any color you prefer */
-        /* Add any other CSS styles you want for these links */
+        
     }
 
     footer{
